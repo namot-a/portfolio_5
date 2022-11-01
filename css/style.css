@@ -90,13 +90,13 @@
 
 
  .home__cards {
-    display: flex;
-    justify-content: space-between;
+     display: flex;
+     justify-content: space-between;
      align-items: center;
      position: relative;
      top: -151px;
-    margin-left: 315px;
-    margin-right: 315px;
+     margin-left: 315px;
+     margin-right: 315px;
 
  }
 
@@ -125,4 +125,44 @@
      font-size: 25px;
      color: #fff;
      margin-left: 60px;
+ }
+
+ .about {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-left: 332px;
+     margin-right: 322px;
+     
+ }
+
+.about__cards{
+    display: inline;
+    align-self: flex-end; 
+
+}
+
+ .about__card {
+     width: 376px;
+     height: 450px;   
+
+ }
+
+ .card__1{
+    background-image: url(../img/about-backgroung-1.png);
+ }
+ .card__2{
+    background-image: url(../img/about-backgroung-2.png);
+ }
+ .card__3{
+    background-image: url(../img/about-backgroung-3.png);
+ }
+
+
+ .about__card__title{
+    font-size: 27px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-top: 364px;
  }
