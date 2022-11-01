@@ -1,0 +1,128 @@
+ /* BASE */
+
+ :root {
+     --main-color: #d3ad7f;
+     --black: #13131a;
+     --bg: #010103;
+     --border: .1rem solid rgba(255, 255, 255, .3);
+ }
+
+ body {
+     margin: 0;
+ }
+
+ /* HEADER */
+
+ header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: fixed;
+     border-bottom: var(--border);
+     padding: 1.5rem 10%;
+     left: 0;
+     right: 0;
+     margin-bottom: 50px;
+ }
+
+ .header__logo {
+     padding-left: 200px;
+ }
+
+ .header__nav {
+     margin: 20px;
+     color: #fff;
+     text-decoration: none;
+     font-weight: 500px;
+     font-size: 14px;
+
+ }
+
+ .header__icons {
+     position: relative;
+     top: 2px;
+     padding-right: 200px;
+
+
+ }
+
+ .header__icon {
+     font-size: 29px;
+     color: #fff;
+ }
+
+ /* HOME */
+
+ .home {
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     background: url(../img/home-background.png) no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .home__content {
+     display: block;
+     margin-top: -100px;
+     margin-left: 315px;
+ }
+
+ .home__title {
+     color: #fff;
+     font-size: 48px;
+     font-weight: 700px;
+     margin-bottom: 60px;
+ }
+
+ .home__video {
+     display: flex;
+     align-items: center;
+
+ }
+
+ .home__video__title {
+     color: #fff;
+     font-size: 18px;
+     font-weight: 600px;
+     margin-left: 30px;
+ }
+
+
+ .home__cards {
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     position: relative;
+     top: -151px;
+    margin-left: 315px;
+    margin-right: 315px;
+
+ }
+
+ .home__card {
+     width: 315px;
+     height: 151px;
+     background-color: #8D86C9;
+ }
+
+ .home__card__title {
+     color: #fff;
+     font-size: 18px;
+     font-weight: 600px;
+     margin: 35px 0px 17px 35px;
+ }
+
+ .home__card_subtitle {
+     color: #fff;
+     font-size: 24px;
+     font-weight: 700px;
+     margin-left: 35px;
+     display: inline;
+ }
+
+ .home__card__icons {
+     font-size: 25px;
+     color: #fff;
+     margin-left: 60px;
+ }
