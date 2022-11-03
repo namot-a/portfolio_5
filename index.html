@@ -6,206 +6,291 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <!-- ICONS -->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Tennis</title>
   </head>
+
   <body>
     <!-- HEADER -->
-    <header class="header" id="header">
-      <a href="#" class="header__logo">
-        <img src="./img/logo.svg" alt="header logo" />
-      </a>
+    <header class="header">
+      <div class="container">
+        <div class="header__navbar">
+          <a href="#" class="header__logo">
+            <img src="./img/logo.svg" alt="header logo" />
+          </a>
 
-      <nav class="header__bar">
-        <a href="#" class="header__nav">Главная</a>
-        <a href="#" class="header__nav">О клубе</a>
-        <a href="#" class="header__nav">Турнир</a>
-        <a href="#" class="header__nav">Услуги</a>
-        <a href="#" class="header__nav">Детский теннис</a>
-        <a href="#" class="header__nav">Галерия</a>
-        <a href="#" class="header__nav">Цены</a>
-        <a href="#" class="header__nav">Контакты</a>
-      </nav>
+          <nav class="header__bar">
+            <a href="#" class="header__nav">Главная</a>
+            <a href="#" class="header__nav">О клубе</a>
+            <a href="#" class="header__nav">Турнир</a>
+            <a href="#" class="header__nav">Услуги</a>
+            <a href="#" class="header__nav">Детский теннис</a>
+            <a href="#" class="header__nav">Галерия</a>
+            <a href="#" class="header__nav">Цены</a>
+            <a href="#" class="header__nav">Контакты</a>
+          </nav>
 
-      <div class="header__icons">
-        <a href="#" class="header__icon"><i class='bx bxl-youtube'></i></a>
-        <a href="#" class="header__icon"><i class='bx bxl-vk' ></i></a>
+          <button class="nav__button">
+            <a href="#"><i class="bx bx-menu"></i></a>
+          </button>
+
+          <div class="header__icons">
+            <a href="#" class="header__icon"><i class="bx bxl-youtube"></i></a>
+            <a href="#" class="header__icon"><i class="bx bxl-vk"></i></a>
+          </div>
+        </div>
       </div>
-
-      
     </header>
 
-    <section class="home" id="home">
+    <!-- HOME -->
+    <section class="home">
+      <div class="container">
         <div class="home__content">
-            <h1 class="home__title">
-                Петербургский <br> теннисный клуб <br> имени М.А. Пасечникова
-            </h1>
-            <div class="home__video">
-                    <img src="./img/play-video.svg" alt="">
-                </a>
-                <div class="home__video__title">Посмотрите видео <br> о нашем клубе</div>
+          <h1 class="home__title">
+            Петербургский <br />
+            теннисный клуб <br />
+            имени М.А. Пасечникова
+          </h1>
+          <div class="home__video">
+            <a href="#">
+              <img src="./img/play-video.svg" alt="" />
+            </a>
+            <div class="home__video__title">
+              Посмотрите видео <br />
+              о нашем клубе
             </div>
-
-        
+          </div>
         </div>
-    </section>
 
-    <section class="card">
         <div class="home__cards">
-                <div class="home__card">
-                    <div class="home__card__title">Услуги</div>
-                    <div class="home__card_subtitle">Аренда корта </div>
-                    <a href="#" class="home__card__icons"><i class='bx bx-last-page' ></i></a>
-                </div>
+          <div class="home__card">
+            <div class="home__card__title">Услуги</div>
+            <div class="home__card_subtitle">Аренда корта</div>
+            <a href="#" class="home__card__icons"
+              ><i class="bx bx-last-page"></i
+            ></a>
+          </div>
 
-                <div class="home__card">
-                    <div class="home__card__title">Услуги</div>
-                    <div class="home__card_subtitle">Детский теннис </div>
-                    <a href="#" class="home__card__icons"><i class='bx bx-last-page' ></i></a>
-                </div>
+          <div class="home__card">
+            <div class="home__card__title">Услуги</div>
+            <div class="home__card_subtitle">Детский теннис</div>
+            <a href="#" class="home__card__icons"
+              ><i class="bx bx-last-page"></i
+            ></a>
+          </div>
 
-                <div class="home__card">
-                    <div class="home__card__title">Услуги </div>
-                    <div class="home__card_subtitle">Сборы команд </div>
-                    <a href="#" class="home__card__icons"><i class='bx bx-last-page' ></i></a>
-                </div>
+          <div class="home__card">
+            <div class="home__card__title">Услуги</div>
+            <div class="home__card_subtitle">Сборы команд</div>
+            <a href="#" class="home__card__icons"
+              ><i class="bx bx-last-page"></i
+            ></a>
+          </div>
 
-                <div class="home__card">
-                    <div class="home__card__title">Турниры </div>
-                    <div class="home__card_subtitle">Расписание 
-                        <a href="#" class="home__card__icons"><i class='bx bx-last-page' ></i></a>
-                    </div>
-                </div>
+          <div class="home__card">
+            <div class="home__card__title">Турниры</div>
+            <div class="home__card_subtitle">
+              Расписание
+              <a href="#" class="home__card__icons"
+                ><i class="bx bx-last-page"></i
+              ></a>
             </div>
+          </div>
+        </div>
+      </div>
     </section>
-    
+
+    <!-- ABOUT -->
     <section class="about">
-       
-            <div class="about__card card__1">
-                <h3 class="about__card__title">5 летних <br>грунтовых кортов</h3>
+      <div class="container">
+        <div class="cards">
+          <div class="card__1">
+            
+            <img src="./img/about-backgroung-1.png" alt="">
+            <div class="about__card__title">
+              5 летних <br />грунтовых кортов
             </div>
-     
-     
-            <div class="about__card card__2">
-                <div class="about__card__title">Зал с покрытием <br>“Искусственная трава”</div>
-            </div>
-        
-  
-            <div class="about__card card__3">
-                <div class="about__card__title">Зал с покрытием <br>“Хард”</div>
-            </div>
-    
+          </div>
+
+          <div class="card__2">
+            <img src="./img/about-backgroung-2.png" alt="">
+            <div class="about__card__title">
+                Зал с покрытием <br />“Искусственная трава”
+              </div>
+          </div>
+
+          <div class="card__3">
+          <img src="./img/about-backgroung-3.png" alt="">
+          <div class="about__card__title">Зал с покрытием <br />“Хард”</div>
+          </div>
+          
+        </div>
+      </div>
     </section>
 
-
+    <!-- HOME -->
     <section class="blog">
-            <img src="./img/blog-background.png" class="blog__image">
-        <div class="blog__info">
+      <div class="container">
+        <div class="blog_c">
+          <img src="./img/blog-background.png" class="blog__image" />
+          <div class="blog__info">
             <div class="blog__card">
-            <h2 class="blog__title_1">Спортивный клуб</h2>
-            <p class="blog__subtitle_1">
-                Imperdiet lorem ipsum, pulvinar aliquet sit ultricies in sit turpis. Ultricies erat pretium risus quam tincidunt non viverra porttitor. Sollicitudin enim nunc in nisi donec vel. Blandit mauris vitae amet aliquet ultrices mauris pellentesque. Non ipsum commodo, sit mi sit netus aenean nisl. ]Donec sit pellentesque enim, vestibulum. 
-                <br><br> Condimentum hac adipiscing purus in augue nisi. Convallis ut nisi.
-            </p>
-            <h2 class="blog__title_2">Ornare orci ut dictum nulla fames.</h2>
-            <ul class="blog__subtitle_2">
-                <li>Euismod diam, vel venenatis bibendum sodales sem hendrerit vulputate sagittis.<br><br></li>
-                <li>Nisl senectus sed malesuada donec. Interdum malesuada bibendum imperdiet elementum auctor vitae in. <br><br> </li>
-                <li>Quam purus ornare dictum pharetra. Sed viverra tellus sollicitudin urna, sagittis. <br><br></li>
-                <li>Scelerisque urna senectus commodo, nam. Donec nibh tempus imperdiet nisi, tincidunt mus egestas nisl nullam.</li> 
-            </ul>
+              <h2 class="blog__title_1">Спортивный клуб</h2>
+              <p class="blog__subtitle_1">
+                Imperdiet lorem ipsum, pulvinar aliquet sit ultricies in sit
+                turpis. Ultricies erat pretium risus quam tincidunt non viverra
+                porttitor. Sollicitudin enim nunc in nisi donec vel. Blandit
+                mauris vitae amet aliquet ultrices mauris pellentesque. Non
+                ipsum commodo, sit mi sit netus aenean nisl. ]Donec sit
+                pellentesque enim, vestibulum.
+                <br /><br />
+                Condimentum hac adipiscing purus in augue nisi. Convallis ut
+                nisi.
+              </p>
+              <h2 class="blog__title_2">Ornare orci ut dictum nulla fames.</h2>
+              <ul class="blog__subtitle_2">
+                <li>
+                  Euismod diam, vel venenatis bibendum sodales sem hendrerit
+                  vulputate sagittis.<br /><br />
+                </li>
+                <li>
+                  Nisl senectus sed malesuada donec. Interdum malesuada bibendum
+                  imperdiet elementum auctor vitae in. <br /><br />
+                </li>
+                <li>
+                  Quam purus ornare dictum pharetra. Sed viverra tellus
+                  sollicitudin urna, sagittis. <br /><br />
+                </li>
+                <li>
+                  Scelerisque urna senectus commodo, nam. Donec nibh tempus
+                  imperdiet nisi, tincidunt mus egestas nisl nullam.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </section>
 
+    <!-- COMPOUND -->
     <section class="compound">
-        <div class="trainers__info">
+      <div class="container">
+        <div class="compound_c">
+          <div class="trainers__info">
             <h1>Тренерский состав</h1>
             <div class="triner__buttons">
-            <a href="#"><i class='bx bx-left-arrow-alt' ></i></a>
-            <a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
+              <a href="#"><i class="bx bx-left-arrow-alt"></i></a>
+              <a href="#"><i class="bx bx-right-arrow-alt"></i></a>
             </div>
-        </div>
-        <div class="trainers">
-            
-        <div class="trainer">
-            <img src="./img/trainer1.png" class="trainer__photo">
-            <h1 class="trainer__name">Pulvinar aliquam</h1>
-            <p class="trainer__title">Arcu elit massa amet turpis vel consequat pellentesque sit. </p>
-        </div>
+          </div>
+          <div class="trainers">
+            <div class="trainer">
+              <img src="./img/trainer1.png" class="trainer__photo" />
+              <h1 class="trainer__name">Pulvinar <br> aliquam</h1>
+              <p class="trainer__title">
+                Arcu elit massa amet turpis vel consequat pellentesque sit.
+              </p>
+            </div>
 
-        <div class="trainer">
-            <img src="./img/trainer2.png" class="trainer__photo">
-            <h1 class="trainer__name">Pretium odio</h1>
-            <p class="trainer__title">Bibendum aliquam volutpat nisl a duis in nisi. In sed commodo lorem morbi quis. </p>
-        </div>
+            <div class="trainer">
+              <img src="./img/trainer2.png" class="trainer__photo" />
+              <h1 class="trainer__name">Pretium <br> odio</h1>
+              <p class="trainer__title">
+                Bibendum aliquam volutpat nisl a duis in nisi. In sed commodo
+                lorem morbi quis.
+              </p>
+            </div>
 
-        <div class="trainer">
-            <img src="./img/trainer3.png" class="trainer__photo">
-            <h1 class="trainer__name">Aliquet consectetur</h1>
-            <p class="trainer__title">Id sapien sed nibh fermentum massa posuere ipsum. Diam in.</p>
-        </div>
+            <div class="trainer">
+              <img src="./img/trainer3.png" class="trainer__photo" />
+              <h1 class="trainer__name">Aliquet <br> consectetur</h1>
+              <p class="trainer__title">
+                Id sapien sed nibh fermentum massa posuere ipsum. Diam in.
+              </p>
+            </div>
 
-        <div class="trainer">
-            <img src="./img/trainer4.png" class="trainer__photo">
-            <h1 class="trainer__name">Blandit augue</h1>
-            <p class="trainer__title">Scelerisque accumsan pretium justo, vitae elit. Dolor semper morbi sit auctor vel diam eros.</p>
-        </div>
+            <div class="trainer">
+              <img src="./img/trainer4.png" class="trainer__photo" />
+              <h1 class="trainer__name">Blandit <br> augue</h1>
+              <p class="trainer__title">
+                Scelerisque accumsan pretium justo, vitae elit. Dolor semper
+                morbi sit auctor vel diam eros.
+              </p>
+            </div>
 
-        <div class="trainer">
-            <img src="./img/trainer5.png" class="trainer__photo">
-            <h1 class="trainer__name">Lorem lacus</h1>
-            <p class="trainer__title">Adipiscing amet, viverra dignissim egestas. Sed nibh egestas venenatis faucibus. </p>
-        </div>
+            <div class="trainer">
+              <img src="./img/trainer5.png" class="trainer__photo" />
+              <h1 class="trainer__name">Lorem <br> lacus</h1>
+              <p class="trainer__title">
+                Adipiscing amet, viverra dignissim egestas. Sed nibh egestas
+                venenatis faucibus.
+              </p>
+            </div>
 
-        <div class="trainer">
-            <img src="./img/trainer6.png" class="trainer__photo">
-            <h1 class="trainer__name">Lorem lacus</h1>
-            <p class="trainer__title">Adipiscing amet, viverra dignissim egestas. Sed nibh egestas venenatis faucibus. </p>
+            <div class="trainer">
+              <img src="./img/trainer6.png" class="trainer__photo" />
+              <h1 class="trainer__name">Lorem <br> lacus</h1>
+              <p class="trainer__title">
+                Adipiscing amet, viverra dignissim egestas. Sed nibh egestas
+                venenatis faucibus.
+              </p>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
     </section>
 
+    <!-- SENTENCE -->
     <section class="sentence">
-        <div class="price">
-            <h1>Цены и абонементы</h1>
-            <div class="price__info">
-                <div class="price__info__name">Зимний сезон 2021-2022</div>
-                <a href="#"><i class='bx bx-left-arrow-alt' ></i></a>
-            </div>
-            
-            <div class="price__info">
-                <div class="price__info__name">Абонементы</div>
-                <a href="#"><i class='bx bx-left-arrow-alt' ></i></a>
-            </div>
-            <div class="price__info">
-                <div class="price__info__name">Скидки</div>
-                <a href="#"><i class='bx bx-left-arrow-alt' ></i></a>
-            </div>
-            <div class="price__info">
-                <div class="price__info__name">Дополнительные услуги</div>
-                <a href="#"><i class='bx bx-left-arrow-alt' ></i></a>
-            </div>
+        <div class="container">
+            <div class="container_c">
+      <div class="price">
+        <h1>Цены и абонементы</h1>
+        <div class="price__info">
+          <div class="price__info__name">Зимний сезон 2021-2022</div>
+          <a href="#"><i class="bx bx-left-arrow-alt"></i></a>
+        </div>
 
+        <div class="price__info">
+          <div class="price__info__name">Абонементы</div>
+          <a href="#"><i class="bx bx-left-arrow-alt"></i></a>
         </div>
-        <div class="services">
-            <div class="services__info">
-                <h1>Услуги</h1>
-                <div class="triner__buttons">
-                <a href="#"><i class='bx bx-left-arrow-alt' ></i></a>
-                <a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
-                </div>
-            </div>
-            <img src="./img/services.png" alt="">
-            <div class="services__title">Уютное кафе</div>
+        <div class="price__info">
+          <div class="price__info__name">Скидки</div>
+          <a href="#"><i class="bx bx-left-arrow-alt"></i></a>
         </div>
+        <div class="price__info">
+          <div class="price__info__name">Дополнительные услуги</div>
+          <a href="#"><i class="bx bx-left-arrow-alt"></i></a>
+        </div>
+      </div>
+      <div class="services">
+        <div class="services__info">
+          <h1>Услуги</h1>
+          <div class="triner__buttons">
+            <a href="#"><i class="bx bx-left-arrow-alt"></i></a>
+            <a href="#"><i class="bx bx-right-arrow-alt"></i></a>
+          </div>
+        </div>
+        <img src="./img/services.png" alt="" />
+        <div class="services__title">Уютное кафе</div>
+      </div>
+      </div>
+      </div>
     </section>
 
+    <!-- FOOTER -->
     <footer class="footer">
-        
-        <div class="footer__title">2022 © Все права защищены.</div>
-        
+
+        <div class="container">
+            <div class="footer__content">
+      <div class="footer__title">2022 © Все права защищены.</div>
+
       <nav class="footer__bar">
         <a href="#" class="footer__nav">Главная</a>
         <a href="#" class="footer__nav">О клубе</a>
@@ -218,13 +303,14 @@
       </nav>
 
       <div class="footer__icons">
-        <a href="#" class="footer__icon"><i class='bx bxl-youtube'></i></a>
-        <a href="#" class="footer__icon"><i class='bx bxl-vk' ></i></a>
-        <a href="#" class="footer__icon"><i class='bx bxl-telegram'></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-youtube"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-vk"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-telegram"></i></a>
       </div>
-
+      </div>
+      </div>
     </footer>
 
-
+    <script src="/js/main.js"></script>
   </body>
 </html>

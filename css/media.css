@@ -1,0 +1,28 @@
+@media (max-width: 1230px){
+    /* .header__bar,
+    .header__icon{
+        display: none;
+    }
+    .nav__button{
+        display: flex;
+    } */
+
+    .header__navbar{
+        padding: 0 15px; 
+    }
+
+    .header__bar {
+        display: flex;
+        column-gap: 20px;
+        justify-content: space-between;
+}
+}
+@media (max-width: 1230px){
+    .cards{
+        display: block;
+    }
+
+    .card__1{
+
+    }
+}
